@@ -20,3 +20,10 @@ Data used for this project is from the Alzheimer's Disease Neuroimaging Initiati
 
 ## Analysis
 
+There are two notebooks to run for exploratory analyses and volumetric analyses. Update the paths to where your data is stored
+
+## CNN Model
+
+1. Run the pretraining script first, which pretrains the CNN models on the IXI dataset (https://brain-development.org/ixi-dataset/).
+2. Run the CNN training notebook (This takes a considerable amount of time). If not not running on apple silicon, update "mps" to either "cpu" or "CUDA" to indicate what pytorch should use.
+3. Run the CNN explanation notebook.
